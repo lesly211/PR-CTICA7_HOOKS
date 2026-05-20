@@ -10,12 +10,6 @@ function Header() {
         <h1>React Hooks</h1>
         <span className="subtitle">IS093A - Semana 07</span>
       </div>
-      <div className="header-right">
-        <span className="user">👤 {user.name}</span>
-        <button onClick={() => setDark(d => !d)}>
-          {dark ?  'Claro' : 'Oscuro'}
-        </button>
-      </div>
     </header>
   )
 }
