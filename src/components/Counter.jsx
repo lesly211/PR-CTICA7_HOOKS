@@ -60,9 +60,6 @@ function Counter() {
         <button onClick={handleIncrement}>+</button>
       </div>
 
-      <div className="info">
-        <small>useReducer · useEffect · useContext · useRef · useMemo · useCallback · useLogger</small>
-      </div>
     </div>
   )
 }
