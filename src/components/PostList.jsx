@@ -31,7 +31,6 @@ function PostList() {
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
-        <button onClick={handleFocus}>Enfocar</button>
       </div>
       <p className="count">{filtered.length} resultados</p>
       <ul className="post-list">
